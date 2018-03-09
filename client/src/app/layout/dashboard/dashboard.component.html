@@ -1,10 +1,12 @@
 <div [@routerTransition]>
-    <h2 class="text-muted">Dashboard <small>Statistics Overview</small></h2>
+    <h1 align="center">
+        <img src="../assets/images/cabezera.PNG" alt="YAVIRAC" width="60%" height="auto">
+    </h1>
     <div class="row">
-        <div class="col-md-12">
+        <div class="col-xl-12">
             <ngb-carousel>
                 <ng-template ngbSlide *ngFor="let slider of sliders">
-                    <img class="img-fluid mx-auto d-block" [src]="slider.imagePath" alt="Random first slide" width="100%">
+                    <img class="img-fluid mx-auto d-block" [src]="slider.imagePath" alt="Random first slide" width="50%">
                     <div class="carousel-caption">
                         <h3>{{slider.label}}</h3>
                         <p>{{slider.text}}</p>
@@ -16,16 +18,16 @@
     <hr>
     <div class="row">
         <div class="col-xl-3 col-lg-6">
-            <app-stat [bgClass]="'primary'" [icon]="'fa-comments'" [count]="26" [label]="'New Comments!'" ></app-stat>
+            <app-stat [bgClass]="'dark'" [icon]="'fa fa-graduation-cap'" [label]="'Carreras'"></app-stat>
         </div>
         <div class="col-xl-3 col-lg-6">
-            <app-stat [bgClass]="'warning'" [icon]="'fa-tasks'" [count]="12" [label]="'New task!'" ></app-stat>
+            <app-stat [bgClass]="'dark'" [icon]="'fa fa-flask'" [label]="'Investigación'"></app-stat>
         </div>
         <div class="col-xl-3 col-lg-6">
-            <app-stat [bgClass]="'success'" [icon]="'fa-shopping-cart'" [count]="124" [label]="'New Orders!'" ></app-stat>
+            <app-stat [bgClass]="'dark'" [icon]="'fa fa-users'" [label]="'Vinculacion'"></app-stat>
         </div>
         <div class="col-xl-3 col-lg-6">
-            <app-stat [bgClass]="'danger'" [icon]="'fa-support'" [count]="13" [label]="'New Tickets!'"></app-stat>
+            <app-stat [bgClass]="'dark'" [icon]="'fa fa-briefcase'" [label]="'Bolsa de Empleo'"></app-stat>
         </div>
     </div>
     <hr />
