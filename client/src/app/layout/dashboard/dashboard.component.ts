@@ -9,9 +9,8 @@ import { routerTransition } from '../../router.animations';
 })
 export class DashboardComponent implements OnInit {
     public alerts: Array<any> = [];
-
+    public sliders: Array<any> = [];
     constructor() {
-<<<<<<< HEAD
         this.sliders.push(
             {
                 imagePath: 'assets/images/slider1.jpg',
@@ -42,8 +41,6 @@ export class DashboardComponent implements OnInit {
             }
         );
 
-=======
->>>>>>> 843305ddc726b8e296924db5ece3dded37e90d1b
         this.alerts.push(
             {
                 id: 1,
