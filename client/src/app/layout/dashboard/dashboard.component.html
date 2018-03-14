@@ -1,12 +1,16 @@
 <div [@routerTransition]>
     <h1 align="center">
-        <img src="../assets/images/cabezera.PNG" alt="YAVIRAC" width="50%" height="auto">
+        <img src="../assets/images/logoYavirac.png" alt="YAVIRAC" width="20%" height="auto">
     </h1>
     <div class="row">
         <div class="col-xl-12">
             <ngb-carousel>
                 <ng-template ngbSlide *ngFor="let slider of sliders">
+<<<<<<< HEAD
                     <img class="img-fluid mx-auto d-block" [src]="slider.imagePath" alt="Random first slide" width="80%">
+=======
+                    <img class="img-fluid mx-auto d-block" [src]="slider.imagePath" alt="Random first slide" width="800%">
+>>>>>>> 1361b41005d5283b2258d4544b841253f0074d72
                     <div class="carousel-caption">
                         <h3>{{slider.label}}</h3>
                         <p>{{slider.text}}</p>
@@ -18,16 +22,16 @@
     <hr>
     <div class="row">
         <div class="col-xl-3 col-lg-6">
-            <app-stat [bgClass]="'success'" [icon]="'fa fa-graduation-cap'" [label]="'Carreras'"></app-stat>
+            <app-stat [bgClass]="'primary'" [icon]="'fa fa-graduation-cap'" [label]="'Carreras'"></app-stat>
         </div>
         <div class="col-xl-3 col-lg-6">
-            <app-stat [bgClass]="'success'" [icon]="'fa fa-flask'" [label]="'Investigación'"></app-stat>
+            <app-stat [bgClass]="'primary'" [icon]="'fa fa-flask'" [label]="'Investigación'"></app-stat>
         </div>
         <div class="col-xl-3 col-lg-6">
-            <app-stat [bgClass]="'success'" [icon]="'fa fa-users'" [label]="'Vinculacion'"></app-stat>
+            <app-stat [bgClass]="'primary'" [icon]="'fa fa-users'" [label]="'Vinculacion'"></app-stat>
         </div>
         <div class="col-xl-3 col-lg-6">
-            <app-stat [bgClass]="'success'" [icon]="'fa fa-briefcase'" [label]="'Bolsa de Empleo'"></app-stat>
+            <app-stat [bgClass]="'primary'" [icon]="'fa fa-briefcase'" [label]="'Bolsa de Empleo'"></app-stat>
         </div>
     </div>
 </div>
@@ -65,7 +69,7 @@
             <div class="pull-right">
                 <h6 class="text-dark lead">ENCUENTRANOS EN LAS REDES</h6>
                 <div class="redes-footer">
-                    <a href="https://www.facebook.com/">
+                    <a href="https://www.facebook.com/pages/Yavirac-Itstp/519627974829324?ref=br_rs">
                         <img src="../assets/images/facebook.png">
                     </a>
                     <a href="https://twitter.com/">
