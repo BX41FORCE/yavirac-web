@@ -1,13 +1,13 @@
-import { BlankPageModule } from './blank-page.module';
+import { CarreraSoftwareModule } from './carrera-software.module';
 
-describe('BlankPageModule', () => {
-    let blankPageModule: BlankPageModule;
+describe('CarreraSoftwareModule', () => {
+    let carreraSoftwareModule: CarreraSoftwareModule;
 
     beforeEach(() => {
-        blankPageModule = new BlankPageModule();
+        carreraSoftwareModule = new CarreraSoftwareModule();
     });
 
     it('should create an instance', () => {
-        expect(blankPageModule).toBeTruthy();
+        expect(carreraSoftwareModule).toBeTruthy();
     });
 });
