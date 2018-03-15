@@ -17,9 +17,9 @@ const routes: Routes = [
             { path: 'components', loadChildren: './bs-component/bs-component.module#BsComponentModule' },
             { path: 'blank-page', loadChildren: './blank-page/blank-page.module#BlankPageModule' },
             { path: 'bolsa-empleo', loadChildren: './bolsa-empleo/bolsa-empleo.module#BolsaEmpleoModule' },
-            { path: 'bolsa-empleo', loadChildren: './carrera-software/carrera-software.module#CarreraSoftwareModule' },
-            { path: 'bolsa-empleo', loadChildren: './investigacion/investigacion.module#InvestigacionModule' },
-            { path: 'bolsa-empleo', loadChildren: './vinculacion/vinculacion.module#VinculacionModule' }
+            { path: 'carrera-software', loadChildren: './carrera-software/carrera-software.module#CarreraSoftwareModule' },
+            { path: 'investigacion', loadChildren: './investigacion/investigacion.module#InvestigacionModule' },
+            { path: 'vinculacion', loadChildren: './vinculacion/vinculacion.module#VinculacionModule' }
         ]
     }
 ];
