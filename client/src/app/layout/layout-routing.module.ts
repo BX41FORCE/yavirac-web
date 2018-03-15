@@ -19,7 +19,8 @@ const routes: Routes = [
             { path: 'bolsa-empleo', loadChildren: './bolsa-empleo/bolsa-empleo.module#BolsaEmpleoModule' },
             { path: 'carrera-software', loadChildren: './carrera-software/carrera-software.module#CarreraSoftwareModule' },
             { path: 'investigacion', loadChildren: './investigacion/investigacion.module#InvestigacionModule' },
-            { path: 'vinculacion', loadChildren: './vinculacion/vinculacion.module#VinculacionModule' }
+            { path: 'vinculacion', loadChildren: './vinculacion/vinculacion.module#VinculacionModule' },
+            { path: 'diseño-modas', loadChildren: './diseno-modas/diseno-modas.module#DisenoModasModule' }
         ]
     }
 ];
