@@ -21,7 +21,10 @@ const routes: Routes = [
             { path: 'investigacion', loadChildren: './investigacion/investigacion.module#InvestigacionModule' },
             { path: 'vinculacion', loadChildren: './vinculacion/vinculacion.module#VinculacionModule' },
             { path: 'diseño-modas', loadChildren: './diseno-modas/diseno-modas.module#DisenoModasModule' },
-            { path: 'analisis', loadChildren: './analisis/analisis.module#AnalisisModule' }
+            { path: 'analisis', loadChildren: './analisis/analisis.module#AnalisisModule' },
+            { path: 'electricidad', loadChildren: './electricidad/electricidad.module#ElectricidadModule' },
+            { path: 'culinario', loadChildren: './culinario/culinario.module#CulinarioModule' },
+            { path: 'electronica', loadChildren: './electronica/electronica.module#ElectronicaModule' }
         ]
     }
 ];
