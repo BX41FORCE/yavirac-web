@@ -21,8 +21,9 @@ const routes: Routes = [
             { path: 'investigacion', loadChildren: './investigacion/investigacion.module#InvestigacionModule' },
             { path: 'vinculacion', loadChildren: './vinculacion/vinculacion.module#VinculacionModule' },
             { path: 'diseño-modas', loadChildren: './diseno-modas/diseno-modas.module#DisenoModasModule' },
-            { path: 'electricidad', loadChildren: './electricidad/electricidad.module#ElectricidadModule' }
-            { path: 'culinario', loadChildren: './culinario/culinario.module#CulinarioModule' }
+            { path: 'electricidad', loadChildren: './electricidad/electricidad.module#ElectricidadModule' },
+            { path: 'culinario', loadChildren: './culinario/culinario.module#CulinarioModule' },
+            { path: 'electronica', loadChildren: './electronica/electronica.module#ElectronicaModule' }
         ]
     }
 ];
