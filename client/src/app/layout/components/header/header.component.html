@@ -1,74 +1,60 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
- <img src="../assets/images/logoYavirac.png" alt="YAVIRAC" width="10%" height="auto">
-    
-    <div class="collapse navbar-collapse">
-
-        <ul class="navbar-nav ml-auto">
-
-            <li class="nav-item" ngbDropdown>
-                <a class="nav-link" href="javascript:void(0)" ngbDropdownToggle>
-                    <i class="fa fa-envelope"></i>
-                    <b class="caret"></b>
-                    <span class="sr-only">(current)</span>
-                </a>
-            </li>
-            <li class="nav-item dropdown" ngbDropdown>
-                <a href="javascript:void(0)" class="nav-link" ngbDropdownToggle>
-                    <i class="fa fa-bell"></i>
-                    <b class="caret"></b>
-                    <span class="sr-only">(current)</span>
-                </a>
-                <div class="dropdown-menu-right" ngbDropdownMenu>
-                    <a href="javascript:void(0)" class="dropdown-item">
-                        {{ 'Pending Task' | translate }}
-                        <span class="badge badge-info">6</span>
-                    </a>
-                    <a href="javascript:void(0)" class="dropdown-item">
-                        {{ 'In queue' | translate }}
-                        <span class="badge badge-info"> 13</span>
-                    </a>
-                    <a href="javascript:void(0)" class="dropdown-item">
-                        {{ 'Mail' | translate }}
-                        <span class="badge badge-info"> 45</span>
-                    </a>
-                    <li class="dropdown-divider"></li>
-                    <a href="javascript:void(0)" class="dropdown-item">
-                        {{ 'View All' | translate }}
-                    </a>
-                </div>
-            </li>
-            <li class="nav-item dropdown" ngbDropdown>
-                <a href="javascript:void(0)" class="nav-link" ngbDropdownToggle>
-                    <i class="fa fa-language"></i> {{ 'Language' | translate }}
-                    <b class="caret"></b>
-                </a>
-                <div class="dropdown-menu-right" ngbDropdownMenu>
-                    <a class="dropdown-item" href="javascript:void(0)" (click)="changeLang('en')">
-                        {{ 'English' | translate }}
-                    </a>
-                    <a class="dropdown-item" href="javascript:void(0)" (click)="changeLang('fr')">
-                        {{ 'French' | translate }}
-                    </a>
-                    <a class="dropdown-item" href="javascript:void(0)" (click)="changeLang('ur')">
-                        {{ 'Urdu' | translate }}
-                    </a>
-                    <a class="dropdown-item" href="javascript:void(0)" (click)="changeLang('es')">
-                        {{ 'Spanish' | translate }}
-                    </a>
-                    <a class="dropdown-item" href="javascript:void(0)" (click)="changeLang('it')">
-                        {{ 'Italian' | translate }}
-                    </a>
-                    <a class="dropdown-item" href="javascript:void(0)" (click)="changeLang('fa')">
-                        {{ 'Farsi' | translate }}
-                    </a>
-                    <a class="dropdown-item" href="javascript:void(0)" (click)="changeLang('de')">
-                        {{ 'German' | translate }}
-                    </a>
-                    <a class="dropdown-item" href="javascript:void(0)" (click)="changeLang('zh-CHS')">
-                        {{ 'Simplified Chinese' | translate }}
-                    </a>
-                </div>
-            </li>
-        </ul>
-    </div>
-</nav>
+<ul class="nav nav-pills">
+    <li class="nav-item">
+        <a class="nav-link active" href="http://localhost:4200/dashboard">INICIO</a>
+    </li>
+    <li class="nav-item dropdown" ngbDropdown>
+        <a href="javascript:void(0)" class="nav-link" ngbDropdownToggle>
+            <i class="fa fa-graduation-cap">CARRERAS</i>
+        </a>
+        <div class="dropdown-menu-right" ngbDropdownMenu>
+            <a class="dropdown-item" href="http://localhost:4200/analisis">
+                <span class="fa fa-line-chart"></span> Análisis de Sistemas
+            </a>
+            <a class="dropdown-item" href="http://localhost:4200/culinario">
+                <span class="fa fa-cutlery"> </span> Arte Culinario
+            </a>
+            <a class="dropdown-item" href="http://localhost:4200/carrera-software">
+                <span class="fa fa-desktop"></span> Desarrollo de Software
+            </a>
+            <a class="dropdown-item" href="http://localhost:4200/dise%C3%B1o-modas">
+                <span class="fa fa-scissors"></span> Diseño de Modas
+            </a>
+            <a class="dropdown-item" href="http://localhost:4200/electricidad">
+                <span class="fa fa-plug"></span> Electricidad
+            </a>
+            <a class="dropdown-item" href="http://localhost:4200/electronica">
+                <span class="fa fa-microchip"></span> Electrónica
+            </a>
+            <a class="dropdown-item" href="http://localhost:4200/guianza-turistica">
+                <span class="fa fa-map-signs"></span> Guianza Turística
+            </a>
+            <a class="dropdown-item" href="http://localhost:4200/marketing">
+                <span class="fa fa-bar-chart"></span> Marketing
+            </a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="http://172.16.24.94:8069/carreras-1">
+                <span class="fa fa-bars"></span> Ver Todas</a>
+        </div>
+    </li>
+    <li class="nav-item">
+        <li class="nav-item">
+            <a class="nav-link" href="http://localhost:4200/investigacion">
+                <span class="fa fa-flask"> INVESTIGACIÓN</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="http://localhost:4200/vinculacion">
+                <span class="fa fa-users"> VINCULACIÓN</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="http://localhost:4200/bolsa-empleo">
+                <span class="fa fa-briefcase"> BOLSA DE EMPLEOS</span>
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="http://admision.senescyt.gob.ec/">
+                <span class="fa fa-university"> POSTULA</span>
+            </a>
+        </li>
+</ul>
