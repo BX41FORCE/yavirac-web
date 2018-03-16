@@ -24,7 +24,9 @@ const routes: Routes = [
             { path: 'electricidad', loadChildren: './electricidad/electricidad.module#ElectricidadModule' },
             { path: 'guianza-turistica', loadChildren: './guianza-turistica/guianza-turistica.module#GuianzaTuristicaModule' },
             { path: 'culinario', loadChildren: './culinario/culinario.module#CulinarioModule' },
-            { path: 'electronica', loadChildren: './electronica/electronica.module#ElectronicaModule' }
+            { path: 'electronica', loadChildren: './electronica/electronica.module#ElectronicaModule' },
+            { path: 'analisis', loadChildren: './analisis/analisis.module#AnalisisModule' },
+            { path: 'marketing', loadChildren: './marketing/marketing.module#MarketingModule' }
         ]
     }
 ];
