@@ -1,14 +1,14 @@
-<div style="background-color:rgb(0, 0, 0);">
-    <div class="container" style="background-color:rgb(0, 0, 0);">
+<div style="background-color:rgb(36,36, 36);">
+    <div class="container" style="background-color:rgb(36, 36, 36);">
         <div class="row">
             <div class="col-12">
                 <div align="center">
-                    <ul class="nav nav-pills text-white">
+                    <ul class="nav nav-pills">
                         <li class="nav-item">
-                            <a class="nav-link active " href="http://localhost:4200/dashboard">INICIO</a>
+                            <a class="nav-link" href="http://localhost:4200/dashboard" onMouseover="this.style.color='orange'" onMouseout="this.style.color='white'">INICIO</a>
                         </li>
-                        <li class="nav-item dropdown" ngbDropdown>
-                            <a href="javascript:void(0)" class="nav-link" ngbDropdownToggle>
+                        <li class="nav-item dropdown" ngbDropdown onMouseover="this.style.color='blue'" onMouseout="this.style.color='red'">
+                            <a href="javascript:void(0)" class="nav-link" ngbDropdownToggle onMouseover="this.style.color='orange'" onMouseout="this.style.color='white'">
                                 <i class="fa fa-graduation-cap">CARRERAS</i>
                             </a>
                             <div class="dropdown-menu-right" ngbDropdownMenu>
@@ -42,26 +42,25 @@
                             </div>
                         </li>
                         <li class="nav-item">
-                            <li class="nav-item">
-                                <a class="nav-link" href="http://localhost:4200/investigacion">
-                                    <span class="fa fa-flask"> INVESTIGACIÓN</span>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="http://localhost:4200/vinculacion">
-                                    <span class="fa fa-users"> VINCULACIÓN</span>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="http://localhost:4200/bolsa-empleo">
-                                    <span class="fa fa-briefcase"> BOLSA DE EMPLEOS</span>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="http://admision.senescyt.gob.ec/">
-                                    <span class="fa fa-university"> POSTULA</span>
-                                </a>
-                            </li>
+                            <a class="nav-link" href="http://localhost:4200/investigacion">
+                                <span class="fa fa-flask" onMouseover="this.style.color='orange'" onMouseout="this.style.color='white'"> INVESTIGACIÓN</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://localhost:4200/vinculacion">
+                                <span class="fa fa-users" onMouseover="this.style.color='orange'" onMouseout="this.style.color='white'"> VINCULACIÓN</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://localhost:4200/bolsa-empleo">
+                                <span class="fa fa-briefcase" onMouseover="this.style.color='orange'" onMouseout="this.style.color='white'"> BOLSA DE EMPLEOS</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="http://admision.senescyt.gob.ec/">
+                                <span class="fa fa-university" onMouseover="this.style.color='orange'" onMouseout="this.style.color='white'"> POSTULA</span>
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </div>
