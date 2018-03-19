@@ -3,6 +3,9 @@ $topnav-background-color: #222;
     .nav.nav-pills li a{
         color: white;
     }    
+    .dropdown-menu-right{
+        background-color: black
+    } 
     .navbar {
         background-color: $topnav-background-color;
         .navbar-brand {
